@@ -1,0 +1,119 @@
+{
+"modetype":"globalmod",
+"modename":"Game colors", 
+"modeimg":"gamecolors.png",
+"modeauthor":"127GAMES",
+"modelastupdate":"05.09.2022",
+"modever":"0.1.1",
+"alltextcolor":"default",
+"allimgcolor":"default",
+"allpanelcolor":"default",
+"lobbybgcustom":"17022025.png",
+"lobbybgeffect":"4",
+"currentfps":"60",
+"btntext":"Mod webpage",
+"btnpos":["896", "552"],
+"btnsize":"162",
+"btnstyle":"1",
+"btnflat":"false",
+"btnalign":"center",
+"btnaction":"openpath",
+"btnaction_alarm_subtitle":"Warning!",
+"btnaction_alarm_text":"This is a test",
+"btnaction_after":"exit",
+"btnaction_link":"https://127games.ml/mods-manager/10/lobbymanager/",
+
+"btntext2":"Updates",
+"btnpos2":["810", "552"],
+"btnsize2":"162",
+"btnstyle2":"1",
+"btnflat2":"false",
+"btnalign2":"center",
+"btnaction2":"openjsonmodal",
+"btnaction_alarm_subtitle2":"Warning!",
+"btnaction_alarm_text2":"This is a test",
+"btnaction_link2":"https://127games.ml/mods-manager/10/lobbymanager/get",
+"openjsonmodal_text":"Welcome to Lobby Manager v.01!\n
+Well, this mod was created by the developers in order to help other \n
+mod developers bring their ideas to life. This mod uses all \n
+the arguments and features of the PMF (Parkurchik Mod Functions). \n
+You can find detailed information on the mods website, which you can go
+ to by clicking on the button in the right corner.",
+
+
+"usernamecolor":"#fff",
+"mapnamecolor":"#fff",
+"multiplayer_customip":"127.0.0.1",
+"lang":"eng",
+"discordrpc":"true",
+"discordrpc_sub":"Lobby",
+"discordrpc_text":"Game colors mod...",
+"custommusic_enable":"true",
+"custommusic":"customcolors_music.mp3",
+
+
+"customcolor":"true",
+"setmaincolor":"#000",
+"settextcolor":"#fff",
+"setbtncolor":"#fff",
+"invertcolors_img":"true",
+
+
+"menu_pos_avatar":["93", "16"],
+"menu_pos_username":["150", "16"],
+"menu_pos_usermail":["150", "36"],
+"menu_pos_userbadges":["150", "-44"],
+"menu_pos_points":["373", "28"],
+"menu_pos_rankimg":["450", "35"],
+"menu_pos_rankname":["475", "15"],
+"menu_pos_rankbeat":["475", "33"],
+"menu_pos_xpline":["475", "56"],
+"menu_pos_xp":["620", "30"],
+"menu_pos_iflevelnum":["438", "28"],
+"menu_buttons":["127GAMES Login", "0"],
+"menu_buttons_pos1":["505", "253"],
+"menu_buttons_pos2":["556", "45"],
+"menu_buttons_action":["openscene", "openscene"],
+"menu_buttons_links":["https://127games.ml/profile/", "https://127games.ml/another-link"],
+"menu_buttons_openscene":["Bloop.tscn", "Bloop.tscn"],
+"menu_usersection":"false",
+"menu_achv":"false",
+"menu_gameversion":"GC Mod - 2.2.1",
+
+
+"search_pos_avatar":["24", "26"],
+"search_pos_rankimg":["449", "26"],
+"search_pos_viewprofilebtn":["21", "330"],
+"search_pos_reportbtn":["220", "330"],
+"search_pos_gamerate":["24", "116"],
+"search_pos_clantag":["24", "137"],
+"search_pos_youravatar":["319", "29"],
+"search_pos_yourname":["354", "36"],
+"search_showtopbadges":"true",
+"search_showtime":"false",
+"search_showregdate":"true",
+"search_showclangtag":"true",
+"search_buttons":["Workshop", "%user% Stat"],
+"search_buttons_pos1":["556", "3"],
+"search_buttons_pos2":["556", "45"],
+"search_buttons_action":["openscene", "openlink"],
+"search_buttons_openscene":["Bloop.tscn", "0"],
+"search_buttons_links":["https://127games.ml/workshop/user/%userid%", "https://127games.ml/game-statistics/10/user/%user%"],
+
+
+"display_openlinks":"true",
+"openconsole":"true",
+"_script":[1, "PRKRCHKMDI"],
+"_script1.do":["setInLabel", "Parkurchik"],
+"_animation":[1, "transit"],
+"_animation1.set": [
+    {
+        "opacity":1,
+        "bg_opacity":0.6,
+        "centerIcon":"kosh.png",
+        "centerIcon_mask":"",
+        "centerIcon_opacity":1,
+        "centerIcon_mainText":"GAME COLORS"
+    }
+    ]
+}
